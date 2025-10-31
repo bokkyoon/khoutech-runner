@@ -1,0 +1,9 @@
+node_modules
+
+### Eclipse IDE ###
+.project
+.settings
+.env
+
+### IntelliJ IDE ###
+.idea

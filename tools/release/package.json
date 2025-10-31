@@ -1,0 +1,18 @@
+{
+  "name": "release",
+  "version": "1.1.0",
+  "description": "",
+  "main": "log2release.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "log2release": "./log2release.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "keep-a-changelog": "^0.10.0"
+  }
+}

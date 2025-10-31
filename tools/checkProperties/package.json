@@ -1,0 +1,22 @@
+{
+  "name": "check-properties",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "js-yaml": "^3.13.1",
+    "moment": "^2.24.0",
+    "mustache": "^4.0.0"
+  },
+  "bin": {
+    "checkProperties": "./checkProperties.js",
+    "docgen": "./docgen.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
