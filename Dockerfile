@@ -22,8 +22,8 @@ ENV PATH=$JAVA_HOME/bin:$PATH
 ENV MAVEN_VERSION=3.9.11
 
 # Installer Maven 3.9.6
-RUN curl -fsSL https://downloads.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.tar.gz | tar -xz -C /opt \
-    && ln -s /opt/apache-maven-3.9.11 /opt/maven
+RUN curl -fsSL https://downloads.apache.org/maven/maven-3/3.9.12/binaries/apache-maven-3.9.12-bin.tar.gz | tar -xz -C /opt \
+    && ln -s /opt/apache-maven-3.9.12 /opt/maven
 
 # Définir les variables d'environnement pour Maven
 ENV MAVEN_HOME=/opt/maven
