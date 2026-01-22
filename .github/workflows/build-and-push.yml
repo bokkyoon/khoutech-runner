@@ -10,7 +10,7 @@ env:
   REGISTRY: ghcr.io
   OWNER: ${{ github.repository_owner }} | toLowerCase
   IMAGE_NAME: khoutech-runner
-  VERSION: openjdk21-latest
+  VERSION: openjdk21-latest-v2
 
 jobs:
   build-and-push:
