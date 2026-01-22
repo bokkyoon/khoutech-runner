@@ -24,7 +24,7 @@
                     </snapshots>
                 </repository>
                 <repository>
-                    <id>security</id>
+                    <id>github</id>
                     <url>https://maven.pkg.github.com/bokkyoon/khoutech-security</url>
                     <releases>
                         <enabled>true</enabled>
@@ -34,7 +34,7 @@
                     </snapshots>
                 </repository>
                 <repository>
-                    <id>keycloak</id>
+                    <id>github</id>
                     <url>https://maven.pkg.github.com/bokkyoon/keycloak-config</url>
                     <releases>
                         <enabled>true</enabled>
