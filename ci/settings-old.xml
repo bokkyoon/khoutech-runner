@@ -15,29 +15,7 @@
         <profile>
             <id>github</id>
             <repositories>
-                <repository>
-                    <id>tmp-security</id>
-                    <url>https://maven.pkg.github.com/sn-dkr-dig-tmp/digital-tmp-spring-security</url>
-                </repository>
-                <repository>
-                    <id>tmp-maven-plugin</id>
-                    <url>https://maven.pkg.github.com/sn-dkr-dig-tmp/tmp-maven-plugin</url>
-                </repository>
-                <repository>
-                    <id>tmp-keycloak-config</id>
-                    <url>https://maven.pkg.github.com/sn-dkr-dig-tmp/digital-tmp-keycloak-config</url>
-                </repository>
-                <repository>
-                    <id>tmp-messagebroker</id>
-                    <url>https://maven.pkg.github.com/sn-dkr-dig-tmp/digital-tmp-messagebroker</url>
-                </repository>
             </repositories>
-            <pluginRepositories>
-                <pluginRepository>
-                    <id>tmp-maven-plugin</id>
-                    <url>https://maven.pkg.github.com/sn-dkr-dig-tmp/tmp-maven-plugin</url>
-                </pluginRepository>
-            </pluginRepositories>
         </profile>
     </profiles>
 
